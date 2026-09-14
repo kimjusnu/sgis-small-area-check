@@ -36,12 +36,14 @@ python 04_link_sgg_codes.py 국가데이터처_법정동연계정보.csv --year 
   SGIS에 없음 36(시도·일반구가 있는 시 단위·폐지 군), 후보 복수 1(안양시 만안구)
 - `01`의 상하위 합계 점검에서 차이가 0이 아닌 N/A 칸은 값이 가려진 칸입니다.
   차이가 0이면 N/A 칸의 실제값 합계가 0이라는 뜻입니다
-- 사업체수는 2020년 조사기반에서 등록기반으로 바뀌어 2019→2020 증가분을 실제 변화로 읽지 않습니다
+- 사업체수는 2020년 기준부터 행정자료 기반 모집단(등록기반)으로 바뀌었습니다. 통계정보보고서는 2020년을
+  구계열(조사기반)과 신계열(등록기반)로 나눠 싣고 시계열 비교 시 주의를 안내하므로 2019→2020 증가분을 실제 변화로 읽지 않습니다
 
 ## 공식 안내 위치
 
 - SGIS 자료제공 소개 FAQ: https://sgis.mods.go.kr/view/pss/dataProvdIntrcn
 - SGIS 코드표 및 이용설명서(ref_code.zip): 통계자료 이용안내, 소지역 통계 이용매뉴얼, 행정구역 코드
-- 전국사업체조사 2020년 등록기반 전환: https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=21510
+- 2020년 기준 경제총조사 결과(잠정) 보도자료(통계청, 2021.12.28.): https://eiec.kdi.re.kr/policy/materialView.do?num=222049
+- 『전국사업체조사』 통계정보보고서 45쪽 이용 시 유의사항(구계열·신계열 구분): https://www.k-stat.go.kr/comb100/file-download?fileDnKey=LKR1Xy0lkWiEdoWZBh7zbjEfVqWsnprDY%2Fu%2F%2ByZJfoc%3D
 - 법정동 연계정보: https://www.data.go.kr/data/15136368/fileData.do
 - 집계구 시계열 자료제공: https://www.data.go.kr/data/15129688/fileData.do
